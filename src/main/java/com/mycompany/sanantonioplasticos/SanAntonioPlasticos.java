@@ -4,9 +4,14 @@
 
 package com.mycompany.sanantonioplasticos;
 
+import com.mycompany.sanantonioplasticos.igu.Inicio;
+
 public class SanAntonioPlasticos {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Inicio main = new Inicio(); 
+        main.setVisible(true);
+        main.setLocationRelativeTo(null);
+        
     }
 }
