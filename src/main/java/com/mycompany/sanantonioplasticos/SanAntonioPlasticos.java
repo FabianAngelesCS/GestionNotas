@@ -12,6 +12,5 @@ public class SanAntonioPlasticos {
         Inicio main = new Inicio(); 
         main.setVisible(true);
         main.setLocationRelativeTo(null);
-        
     }
 }
